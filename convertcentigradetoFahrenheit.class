@@ -3,7 +3,7 @@ package com.mycompany.oop_se;
 
 import java.util.Scanner;
 
-public class MuhammadRehanBSE20F074 {
+public class convertcentigradetoFahrenheit {
     
 // Java Program to Convert Celsius into Fahrenheit 
 
