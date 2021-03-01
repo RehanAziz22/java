@@ -1,0 +1,61 @@
+//Input without user interaction
+package com.mycompany.oop_se;
+
+import java.util.Scanner;
+
+public class MuhammadRehanBSE20F074 {
+    
+// Java Program to Convert Celsius into Fahrenheit 
+
+    public static void main(String[] args) { 
+    // assigning the values of Celsius and fahrenhiet 
+        double celsius = 17.0, fahrenheit = 6.2; 
+		
+	// formula for conversion celsius to fahrenheit 
+	fahrenheit = (celsius * 9/5) + 32; 
+	System.out.println( "  temperature in fahrenheit:" + fahrenheit); 
+	
+    // formula for conversion celsius to fahrenheit 
+	celsius = (fahrenheit - 32) * 5/9; 
+	System.out.println( " temperature in celsius:" + celsius ); 
+	        
+    } 
+}
+
+
+
+
+/*Input with user interaction*/
+package com.mycompany.oop_se;
+
+import java.util.Scanner;
+public class MuhammadRehanBSE20F074 {
+
+        // Java Program to Convert Celsius into Fahrenheit 
+
+    public static void main(String[] args) { 
+    // initialising 
+        String firstNumber, secondNumber; 
+        double celsius, fahrenheit; 
+        Scanner sc= new Scanner(System.in);
+      
+	
+        System.out.println( "Please enter the celsius value " );
+        firstNumber = sc.next();
+        celsius = Integer.parseInt(firstNumber);
+  
+        
+    // formula for conversion celsius to fahrenheit 
+	fahrenheit = (celsius * 9/5) + 32; 
+	System.out.println( "value of temperature in fahrenheit:" + fahrenheit); 
+	
+    // formula for conversion fahrenheit to celsius
+        System.out.println( "\nPlease enter the fahrenheit value " );
+        secondNumber = sc.next();
+        fahrenheit = Integer.parseInt( secondNumber );
+        
+	celsius = (fahrenheit - 32) * 5/9; 
+	System.out.println( " value of temperature in celsius:" + celsius ); 
+
+    }
+}
