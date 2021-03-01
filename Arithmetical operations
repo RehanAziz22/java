@@ -1,0 +1,40 @@
+package com.mycompany.oop_se;
+
+import java.util.Scanner;
+public class MuhammadRehanBSE20F074 {
+
+    
+    public static void main(String[] args) {
+        // 
+        String firstNumber, secondNumber;
+        int num1, num2, sum, product, difference, quotient;
+        Scanner sc= new Scanner(System.in);
+
+        //taking the first number from the user
+        System.out.println( "Please enter the first number: " );
+        firstNumber = sc.next();
+
+        //taking the second number from the user
+        System.out.println ( "\nPlease enter the second number: " );
+        secondNumber = sc.next();
+        num1 = Integer.parseInt(firstNumber);
+        num2 = Integer.parseInt( secondNumber );
+        
+        // sum of two numbers in stored in variable sum
+        sum = num1 + num2; 
+        System.out.println( "\nThe sum is " +sum);
+        
+        // product of two numbers in stored in variable product
+        product = num1 * num2;
+        System.out.println( "\nThe product is " +product);
+        
+        // difference of two numbers in stored in variable difference
+        difference = num1 – num2;
+        System.out.println( "\nThe difference is " +difference);
+
+        // quotient of two numbers in stored in variable quotient
+        quotient = num1 / num2;
+        System.out.println( "\nThe quotient is " +quotient);
+
+    }
+}
