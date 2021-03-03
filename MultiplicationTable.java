@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-public class MuhammadRehanBSE20F074 {
+public class MultiplicationTable {
 
     public static void main(String[] args) {
         {
